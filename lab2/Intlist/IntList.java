@@ -105,7 +105,7 @@ public class IntList {
         while (A != null) {
             ptr.rest = new IntList(A.first, null);
             ptr = ptr.rest;
-            A = A.rest
+            A = A.rest;
         }
         ptr.rest = B;
         return res;
